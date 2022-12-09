@@ -16,7 +16,7 @@ int main(void)
 	{
 		for (ones = '0'; ones <= '9'; ones++)/*for printing ones digits*/
 		{
-			if(!((ones == tens) || (tens > ones)))/*for eliminated the likelyhood of repetition*/
+			if (!((ones == tens) || (tens > ones)))/*Elimination of repetition*/
 			{
 				putchar(tens);
 				putchar(ones);
